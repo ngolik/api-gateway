@@ -28,7 +28,7 @@ spring:
       client:
         registration:
           google:
-            clientId: ${GOOGLE_CLIENT_ID}
+            clientId: ${GOOGLE-CLIENT-ID}
             clientSecret: ${GOOGLE_CLIENT_SECRET}
           cognito:
             clientAuthenticationMethod: client_secret_post
